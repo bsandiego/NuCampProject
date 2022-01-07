@@ -43,11 +43,11 @@ def main():
         operating_cash_flow, current_liabilities)
     rec_tr = receivables_turnover_ratio(credit_sales)
 
-    print(qr)
-    print(cr)
-    print(cash_r)
-    print(op_cash_fl)
-    print(rec_tr)
+    print("quick ratio: " + str(qr))
+    print("current ratio: " + str(cr))
+    print("cash ratio: " + str(cash_r))
+    print("operating_cash_flow_ratio: " + str(op_cash_fl))
+    print("receivables  turnover ratio: " + str(rec_tr))
 
 
 main()
